@@ -8,7 +8,7 @@ Welcome to the Portfolio Management Dashboard! This application is designed to h
 - **Account Information**: View your account details including your email and total portfolio value.
 - **Stocks Owned**: See a detailed list of stocks you own, including the symbol, name, quantity, average buy price, current price, and owned market value.
 
-![image](https://github.com/user-attachments/assets/a319174b-2a51-4e51-a50e-fe0e3e26474a)
+![image](https://github.com/user-attachments/assets/fb1e65ef-7a78-4490-9192-2e5e5ffbd274)
 
 
 ### Transactions
