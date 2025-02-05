@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Portfolio Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Portfolio Management Dashboard! This application is designed to help you manage your stock portfolio with ease. It provides a user-friendly interface to view your account overview, track transactions, trade stocks, and view detailed stock information.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Account Overview
+- **Account Information**: View your account details including your email and total portfolio value.
+- **Stocks Owned**: See a detailed list of stocks you own, including the symbol, name, quantity, average buy price, current price, and owned market value.
 
-### `npm start`
+### Transactions
+- **Transaction History**: Track your transaction history with details such as symbol, average buy price, quantity, and timestamps for creation and updates.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Trade
+- **Buy Stocks**: Purchase stocks by specifying the ticker symbol and the amount in dollars you want to invest.
+- **Sell Stocks**: Sell stocks by specifying the ticker symbol and the amount in dollars you want to sell.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### View Stock
+- **Stock Search**: Search for detailed information about a specific stock by entering its ticker symbol.
+- **Stock Data**: View comprehensive stock data including the latest price, historical prices, percentage changes over various periods, and ratings summary.
 
-### `npm test`
+## Technologies Used
+- **Frontend**: React.js for building the user interface.
+- **Backend**: Flask for handling API requests and interacting with the Robinhood API.
+- **Styling**: CSS for styling the components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
+- Node.js and npm installed on your machine.
+- Python and pip installed on your machine.
+- Robinhood account credentials.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/your-username/portfolio-management-dashboard.git
+    cd portfolio-management-dashboard
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install frontend dependencies**:
+    ```sh
+    cd frontend
+    npm install
+    ```
 
-### `npm run eject`
+3. **Install backend dependencies**:
+    ```sh
+    cd backend
+    pip install -r requirements.txt
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Set up Robinhood credentials**:
+    - Create a `.env` file in the directory and add your Robinhood credentials:
+      ```
+      ROBINHOOD_USERNAME=your_username
+      ROBINHOOD_PASSWORD=your_password
+      ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Running the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Start the backend server**:
+    ```sh
+    cd backend
+    python app.py
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Start the frontend server**:
+    ```sh
+    cd frontend
+    npm start
+    ```
 
-## Learn More
+3. **Open your browser** and navigate to `http://localhost:3000` to access the Portfolio Management Dashboard.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Navigate** through the sidebar to access different sections of the dashboard.
+- **View your account overview** to see your portfolio's total value and individual stock details.
+- **Track your transactions** to keep an eye on your trading history.
+- **Trade stocks** by buying or selling using the Trade section.
+- **Search for stocks** to get detailed information about specific stocks.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
