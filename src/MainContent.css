@@ -1,0 +1,38 @@
+/* MainContent.css */
+main {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f5f5f5;
+}
+
+#dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+#contentlist {
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+#negative {
+    color: red;
+}
+
+#positive {
+    color: rgb(0, 148, 0);
+}

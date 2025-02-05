@@ -1,0 +1,8 @@
+/* ViewStock.css */
+.positive {
+    color: rgb(0, 148, 0);
+}
+
+.negative {
+    color: red;
+}

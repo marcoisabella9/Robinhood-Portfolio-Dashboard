@@ -1,0 +1,27 @@
+/* Sidebar.css */
+aside {
+    width: 100px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+a:hover {
+    background-color: #ddd;
+}
